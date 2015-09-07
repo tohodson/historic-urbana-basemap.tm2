@@ -1,1 +1,3 @@
-# historic-urbana-basemap.tm2
+# Wheatpaste
+
+Wheatpaste style for [Mapbox Studio](https://www.mapbox.com/mapbox-studio/)
