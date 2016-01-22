@@ -1,6 +1,6 @@
 _prefs: 
   mapid: tohodson.55f8ddb6
-  saveCenter: false
+  saveCenter: true
 _properties: {}
 attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
 bounds: 
@@ -9,17 +9,17 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -88.2245
-  - 40.1076
-  - 14
+  - -88.2228
+  - 40.1097
+  - 15
 description: ''
 format: "png8:m=h:c=128"
 interactivity_layer: ''
 layers: null
-maxzoom: 16
-minzoom: 0
+maxzoom: 22
+minzoom: 12
 name: historic urbana
-source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5"
+source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5,tohodson.daf1b771"
 styles: 
   - style.mss
   - terrain.mss

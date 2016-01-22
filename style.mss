@@ -38,20 +38,10 @@ Map {
   line-comp-op: multiply;
 }
 
-#building {
-  ::blue {
-    polygon-fill: #2df;
-    [zoom>=15] { polygon-geometry-transform: translate(-1,-2); }
-    [zoom>=17] { polygon-geometry-transform: translate(-2,-1); }
-  }
-  ::red {
-    polygon-fill: #f07;
-    polygon-comp-op:multiply;
-    [zoom>=15] { polygon-geometry-transform: translate(1,1); }
-    [zoom>=17] { polygon-geometry-transform: translate(2,2); }
-  }
-  ::black { polygon-fill: #000; }
+#urbana_footprint [zoom>=17], #building [zoom>=15] {
+  ::black { polygon-fill: #101010; }
 }
+
 
 #aeroway {
   ['mapnik::geometry_type'=2] { line-color: #000; }
@@ -119,6 +109,7 @@ Map {
   [class='main']{
     ::case {
       line-width: 5;
+      line-color: #fc9272;
       line-color: #f86b3a;
       line-opacity: 0.7;
   }
